@@ -1,0 +1,70 @@
+.header-div {
+    height: 10.5vh;
+    position: fixed;
+    
+}
+
+header {
+    height: 10.5vh;
+    position: relative;
+    background:hsl(202, 100%, 7%);
+}
+
+.average-joe-pic {
+    height: 100px;
+    width: 215px;
+}
+
+.home-pic {
+    float: left;
+    height: 70.6vh;
+    width: 35%;
+}
+
+.navbar-tools {
+    width: 60%;
+    float: right;
+    display: flex;
+    position: relative;
+    bottom: 100rem;
+}
+
+/*.navbar-tools a {
+}*/
+
+.claim-header {
+    text-align: center;
+    background: #8C978E;
+    height: 80vh;
+}
+
+#_labels {
+    position: relative;
+    right: 35px;
+    background:hsl(202, 100%, 7%);
+    color: white;
+    padding-left: 150px;
+    padding-right: 45px;
+    display: flex;
+}
+
+.h1-paragraph {
+    color: white;
+    position: relative;
+    text-align: left;
+    padding-left: 330px;
+    padding-top: 50px;
+    padding-right: 85px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.visit-div {
+    text-align: left;
+    padding-left: 330px;
+}
+
+.space {
+    background:hsl(202, 100%, 7%);
+    height: 10vh;
+}
