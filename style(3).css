@@ -1,13 +1,29 @@
+html {
+    overflow-x: hidden;
+}
+
+/*Responsive Controls*/
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 .header-div {
     height: 10.5vh;
-    position: fixed;
     
+}
+
+.header-div-one {
+    background:hsl(202, 100%, 7%);
+    position: fixed;
+    height: 10vh;
+    width: 100%;
 }
 
 header {
     height: 10.5vh;
-    position: relative;
-    background:hsl(202, 100%, 7%);
 }
 
 .average-joe-pic {
@@ -67,4 +83,71 @@ header {
 .space {
     background:hsl(202, 100%, 7%);
     height: 10vh;
+}
+
+.bullet-container {
+    background: #8C978E;
+    height: 20vh;
+}
+
+.bullet-div {
+    background: #8C978E;
+    width: 85%;
+    height: 67vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.bullet-header {
+    color:hsl(202, 100%, 7%);
+}
+
+.bullet-p {
+    width: 75%;
+}
+
+.why-shipping-div {
+    height: 111vh;
+    background: hsl(202, 100%, 7%);
+    color: white;
+}
+
+.box-intro {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.contact-header {
+    background: white;
+    height: 20vh;
+    color:hsl(202, 100%, 7%);
+}
+
+.contact-form {
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    width: 100%;
+    background:hsl(202, 100%, 7%);
+}
+
+.contact-form input {
+    background: none;
+    line-height: 80px;
+    border: 1px solid white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 60%;
+}
+
+.under-form-div {
+    background: white;
+    color:hsl(202, 100%, 7%);
 }
