@@ -33,7 +33,7 @@ header {
 
 .home-pic {
     float: left;
-    height: 70.6vh;
+    height: 80vh;
     width: 35%;
 }
 
@@ -133,8 +133,9 @@ header {
     padding-top: 30px;
     padding-left: 60px;
     padding-bottom: 30px;
-    width: 100%;
+    width: 60%;
     background:hsl(202, 100%, 7%);
+    position: absolute;
 }
 
 .contact-form input {
@@ -144,10 +145,48 @@ header {
     border-right: none;
     border-left: none;
     border-top: none;
-    width: 60%;
+    width: 70%;
 }
 
 .under-form-div {
-    background: white;
+    background: #8C978E;
     color:hsl(202, 100%, 7%);
+    height: 50vh;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+ul {
+    float: right;
+    height: 10vh;
+    padding-right: 10px;
+    list-style: none;
+    display: flex;
+    background: #8C978E;
+}
+
+ul li a {
+    color: white;
+}
+
+.list-item-one {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px;
+}
+
+.list-item-two {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px;
+}
+
+.list-item-three {
+    padding-top: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
 }
