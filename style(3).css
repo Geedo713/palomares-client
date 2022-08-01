@@ -15,10 +15,49 @@ html {
     
 }
 
+/* Responsive site rules */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media (max-width: 480px) {         /*mobile devices*/  
+}
+@media (min-width: 480px), (max-width: 767px) {      /*low-resolution tablets, and ipads*/   
+}
+@media (min-width: 768px), (max-width: 1024px) {
+}
+@media (min-width: 768px), (max-width: 1024) {       /*tablets and ipads w/ portrait mode*/
+}
+@media (min-width: 1025px), (max-width: 1280px) {        /*Media query for laptops and desktops*/
+    body {
+        border: none;
+        padding: none;
+    }         
+}
+@media (min-width: 1281px) {        /*Media query for large screens*/
+    body {
+        border: none;
+        padding: none;
+    }
+}
+
+body {
+    min-width: 800px;
+}
+
 .header-div-one {
     background:hsl(202, 100%, 7%);
     position: fixed;
-    height: 10vh;
+    height: 10.2vh;
     width: 100%;
 }
 
@@ -33,7 +72,7 @@ header {
 
 .home-pic {
     float: left;
-    height: 80vh;
+    height: 50vh;
     width: 35%;
 }
 
@@ -51,7 +90,7 @@ header {
 .claim-header {
     text-align: center;
     background: #8C978E;
-    height: 80vh;
+    height: 50vh;
 }
 
 #_labels {
@@ -62,6 +101,10 @@ header {
     padding-left: 150px;
     padding-right: 45px;
     display: flex;
+}
+
+.h1 {
+    color: white;
 }
 
 .h1-paragraph {
@@ -130,9 +173,10 @@ header {
 }
 
 .contact-form {
-    padding-top: 30px;
     padding-left: 60px;
-    padding-bottom: 30px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    bottom: -2010px;
     width: 60%;
     background:hsl(202, 100%, 7%);
     position: absolute;
@@ -151,14 +195,14 @@ header {
 .under-form-div {
     background: #8C978E;
     color:hsl(202, 100%, 7%);
-    height: 50vh;
+    height: 90vh;
     padding-left: 20px;
     padding-top: 20px;
 }
 
 ul {
     float: right;
-    height: 8.4vh;
+    height: 8.6vh;
     padding-right: 10px;
     list-style: none;
     display: flex;
@@ -189,4 +233,14 @@ ul li a {
 
 a {
     text-decoration: none;
+}
+
+.gray-paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 40vh;
+    float: right;
+    color: white;
+    padding-right: 15px;
 }
