@@ -50,6 +50,10 @@ html {
     }
 }
 
+div {
+    width: 100%;
+}
+
 body {
     min-width: 800px;
 }
@@ -57,7 +61,7 @@ body {
 .header-div-one {
     background:hsl(202, 100%, 7%);
     position: fixed;
-    height: 10.2vh;
+    height: 13vh;
     width: 100%;
 }
 
@@ -66,8 +70,8 @@ header {
 }
 
 .average-joe-pic {
-    height: 100px;
-    width: 215px;
+    height: 8em;
+    width: 11em;
 }
 
 .home-pic {
@@ -189,10 +193,13 @@ header {
     border-right: none;
     border-left: none;
     border-top: none;
-    width: 70%;
+    width: 85%;
 }
 
 .under-form-div {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
     background: #8C978E;
     color:hsl(202, 100%, 7%);
     height: 90vh;
