@@ -176,6 +176,10 @@ header {
     color:hsl(202, 100%, 7%);
 }
 
+.form-container {
+    padding-left: 30px;
+}
+
 .contact-form {
     padding-left: 60px;
     padding-right: 60px;
@@ -187,6 +191,7 @@ header {
 }
 
 .contact-form input {
+    color: white;
     background: none;
     line-height: 80px;
     border: 1px solid white;
@@ -209,7 +214,7 @@ header {
 
 ul {
     float: right;
-    height: 8.6vh;
+    height: 11.4vh;
     padding-right: 10px;
     list-style: none;
     display: flex;
