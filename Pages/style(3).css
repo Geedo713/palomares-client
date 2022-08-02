@@ -80,6 +80,16 @@ header {
     width: 35%;
 }
 
+.col-lg-3 {
+    padding-left: 30px;
+}
+
+nav {
+    padding-left: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
 .navbar-tools {
     width: 60%;
     float: right;
@@ -109,6 +119,10 @@ header {
 
 .h1 {
     color: white;
+}
+
+.h3 {
+    text-transform: uppercase;
 }
 
 .h1-paragraph {
@@ -245,6 +259,7 @@ ul li a {
 
 a {
     text-decoration: none;
+    color:hsl(202, 100%, 7%);
 }
 
 .gray-paragraph {
