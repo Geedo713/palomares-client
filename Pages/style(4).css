@@ -1,0 +1,87 @@
+.form-container {
+    padding-left: 30px;
+}
+
+.contact-div {
+    padding-left: 30px;
+}
+
+.contact-form {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    bottom: -71px;
+    width: 60%;
+    background:hsl(202, 100%, 7%);
+    position: absolute;
+}
+
+.contact-form input {
+    color: white;
+    background: none;
+    line-height: 80px;
+    border: 1px solid white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 85%;
+}
+
+.under-form-div {
+    width: 100%;
+    background: #8C978E;
+    color:hsl(202, 100%, 7%);
+    height: 50vh;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.extra-div {
+    height: 50vh;
+}
+
+ul {
+    float: right;
+    height: 11.4vh;
+    padding-right: 10px;
+    list-style: none;
+    display: flex;
+    background: #8C978E;
+}
+
+ul li a {
+    color: white;
+}
+
+.list-item-one {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px;
+}
+
+.list-item-two {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px;
+}
+
+.list-item-three {
+    padding-top: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color:hsl(202, 100%, 7%);
+}
+
+.gray-paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 40vh;
+    float: right;
+    color: white;
+    padding-right: 15px;
+}
