@@ -1,0 +1,273 @@
+html {
+    overflow-x: hidden;
+}
+
+/*Responsive Controls*/
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.header-div {
+    height: 10.5vh;
+    
+}
+
+/* Responsive site rules */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media (max-width: 480px) {         /*mobile devices*/  
+}
+@media (min-width: 480px), (max-width: 767px) {      /*low-resolution tablets, and ipads*/   
+}
+@media (min-width: 768px), (max-width: 1024px) {
+}
+@media (min-width: 768px), (max-width: 1024) {       /*tablets and ipads w/ portrait mode*/
+}
+@media (min-width: 1025px), (max-width: 1280px) {        /*Media query for laptops and desktops*/
+    body {
+        border: none;
+        padding: none;
+    }         
+}
+@media (min-width: 1281px) {        /*Media query for large screens*/
+    body {
+        border: none;
+        padding: none;
+    }
+}
+
+div {
+    width: 100%;
+}
+
+body {
+    min-width: 800px;
+}
+
+.header-div-one {
+    background:hsl(202, 100%, 7%);
+    position: fixed;
+    height: 13vh;
+    width: 100%;
+}
+
+header {
+    height: 10.5vh;
+}
+
+.average-joe-pic {
+    height: 8em;
+    width: 11em;
+}
+
+.home-pic {
+    float: left;
+    height: 50vh;
+    width: 35%;
+}
+
+.col-lg-3 {
+    padding-left: 30px;
+}
+
+nav {
+    padding-left: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.navbar-tools {
+    width: 60%;
+    float: right;
+    display: flex;
+    position: relative;
+    bottom: 100rem;
+}
+
+/*.navbar-tools a {
+}*/
+
+.claim-header {
+    text-align: center;
+    background: #8C978E;
+    height: 50vh;
+}
+
+#_labels {
+    position: relative;
+    right: 35px;
+    background:hsl(202, 100%, 7%);
+    color: white;
+    padding-left: 150px;
+    padding-right: 45px;
+    display: flex;
+}
+
+.h1 {
+    color: white;
+}
+
+.h3 {
+    text-transform: uppercase;
+}
+
+.h1-paragraph {
+    color: white;
+    position: relative;
+    text-align: left;
+    padding-left: 330px;
+    padding-top: 50px;
+    padding-right: 85px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.visit-div {
+    text-align: left;
+    padding-left: 330px;
+}
+
+.space {
+    background:hsl(202, 100%, 7%);
+    height: 10vh;
+}
+
+.bullet-container {
+    background: #8C978E;
+    height: 20vh;
+}
+
+.bullet-div {
+    background: #8C978E;
+    width: 85%;
+    height: 67vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.bullet-header {
+    color:hsl(202, 100%, 7%);
+}
+
+.bullet-p {
+    width: 75%;
+}
+
+.why-shipping-div {
+    height: 111vh;
+    background: hsl(202, 100%, 7%);
+    color: white;
+}
+
+.box-intro {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.contact-header {
+    background: white;
+    height: 20vh;
+    color:hsl(202, 100%, 7%);
+}
+
+.form-container {
+    padding-left: 30px;
+}
+
+.contact-form {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    bottom: -2010px;
+    width: 60%;
+    background:hsl(202, 100%, 7%);
+    position: absolute;
+}
+
+.contact-form input {
+    color: white;
+    background: none;
+    line-height: 80px;
+    border: 1px solid white;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 85%;
+}
+
+.under-form-div {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    background: #8C978E;
+    color:hsl(202, 100%, 7%);
+    height: 90vh;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+ul {
+    float: right;
+    height: 11.4vh;
+    padding-right: 10px;
+    list-style: none;
+    display: flex;
+    background: #8C978E;
+}
+
+ul li a {
+    color: white;
+}
+
+.list-item-one {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px;
+}
+
+.list-item-two {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px;
+}
+
+.list-item-three {
+    padding-top: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color:hsl(202, 100%, 7%);
+}
+
+.gray-paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 40vh;
+    float: right;
+    color: white;
+    padding-right: 15px;
+}
